@@ -1,4 +1,4 @@
-# MemoryMesh – Adaptive Cognitive Intelligence
+# 🧠MemoryMesh – Adaptive Cognitive Intelligence
 
 MemoryMesh is an AI-powered cognitive analytics dashboard developed for the AMD Slingshot Hackathon.
 
@@ -52,15 +52,18 @@ Concepts → Similarity Scoring → Knowledge Graph Rendering
 ---
 
 ## 📂 Project Structure
-
-src/
- ├── components/
- │    └── KnowledgeGraph.tsx
- ├── utils/
- │    └── nlp.ts
- ├── App.tsx
- ├── main.tsx
-
+```
+├── src
+│   ├── components   
+|   │   ├── KnowledgeGraph.tsx     
+│   ├── utils
+|   │   ├── nlp.ts     
+│   ├── App.tsx
+|   ├── index.css     
+│   └── main.tsx     
+├── vite.config.ts   
+└── tsconfig.json
+```
 ---
 
 ## ⚙️ Setup & Installation
@@ -68,6 +71,7 @@ src/
 ### 1. Clone the repository
 
 git clone https://github.com/kumudasrip/MemoryMesh-AI.git 
+
 cd MemoryMesh-AI 
 
 ### 2. Install dependencies
